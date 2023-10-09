@@ -1,0 +1,55 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: #D5E1EF;
+    margin: 10rem;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.box{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 31rem;
+    width: 22rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border-radius: 5%;
+    padding-top: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-bottom: 1rem;
+}
+
+#QR{
+    display: flex ;
+    justify-content: center;
+    
+}
+
+ #QR img{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 5%;
+ }
+
+ .para{
+    text-align: center;
+    margin-top: 2rem;
+    height: 10rem;
+ }
